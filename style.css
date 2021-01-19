@@ -1,0 +1,131 @@
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('fonts/OpenSans-Regular-webfont.eot');
+    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
+         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+body
+{
+    background-image: url('exemple-cv/activite_partie3/greyzz.png');
+    font-family: 'BallparkWeiner', Arial, sans-serif;
+    color: #2b2727;
+}
+
+img
+{
+float: right;
+border: 1px solid black;
+box-shadow: 2px 2px 2px black;
+}
+h1, h2
+{
+	font-family: 'open_sansregular', arial, impact;
+}
+
+h1, h1 + p
+{
+	text-align: center;
+}
+p
+{
+	font-family: 'open_sansregular', arial, impact;
+	font-weight: bold;
+}	
+section
+{
+
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 3%;
+	margin-top: 3%;
+	width: 27%;
+}
+#liseret, #bloc-page
+{
+	display: inline-block;
+	vertical-align: top;
+}	
+#liseret
+{
+
+	background-image: url('fondrouge.jpg');
+	height: 650px;
+	width: 7%;
+	margin-right: 3%;
+	border-radius: 8px;
+
+
+
+}
+
+ul
+{
+	 font-family: 'BallparkWeiner', serif;
+    font-size: 1.1em;
+    font-weight: normal;
+
+}
+	
+
+	
+}
+
+
+a:visited
+{
+	color:#888888;
+}
+h2
+{
+	text-align: left;
+	color: #614653; 
+}
+
+
+#bloc-page
+{
+	width: 85%;
+}
+
+/* application media queries */
+
+@media all and (max-width: 1024px)
+{
+
+#bloc-page
+	{
+
+		width: auto;
+
+	}
+}
+
+
+@media all and (max-width: 1024px)
+{
+	#liseret
+	{
+		display: none;
+	}
+}
+
+@media all and (max-width: 1024px)
+{
+section
+{
+	display: block;
+	width: auto;
+}
+
+}
